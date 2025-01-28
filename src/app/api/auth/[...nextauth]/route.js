@@ -75,14 +75,6 @@ const handler = NextAuth({
     strategy: "jwt", // Use JWT to manage sessions
   },
   secret: process.env.NEXTAUTH_SECRET, // Add the secret here
-  cookies: {
-    // Only set the `secure` flag on cookies in production
-    sessionToken: {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production", // secure cookies for production
-      sameSite: "lax", // Adjust this based on needs
-    },
-  },
 });
 
 export { handler as GET, handler as POST };
