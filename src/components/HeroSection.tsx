@@ -15,10 +15,10 @@ export default function HeroSection() {
   return (
     <section className="flex-1 flex flex-col items-center justify-center text-center p-12 bg-gradient-to-b from-gray-50 to-white">
       <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
-        Instant Chat Links for Seamless <span className="text-blue-600">Conversations</span>
+        Instant Chat & Seamless <span className="text-blue-600">Conversations</span>
       </h1>
       <p className="text-xl text-gray-600 mb-8">
-        ConvoHub makes it effortless to create secure chat links and start conversationsin seconds.
+      ConvoHub makes it effortless to start conversations about trending topicsin seconds.
       </p>
       <button
         onClick={handleStartChatting}

@@ -23,13 +23,13 @@ export default function FeatureSection() {
       >
         <FeatureCard
           icon="🚀"
-          title="Instant Setup"
-          description="Generate a room link in seconds. No account required."
+          title="Instant Chat"
+          description="Join trending conversations instantly."
         />
         <FeatureCard
           icon="🔒"
           title="Secure"
-          description="Passcode protection for your private conversations."
+          description=" Keep your conversations private and secure."
         />
         <FeatureCard
           icon="💻"

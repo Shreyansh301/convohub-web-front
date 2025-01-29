@@ -10,7 +10,7 @@ export default function UserReviews() {
           {/* Review 1 */}
           <div className="p-6 text-center bg-white shadow-lg rounded-lg">
             <p className="text-lg text-gray-700">
-              “ConvoHub is a game-changer! The fastest way to start a chat.”
+              “ConvoHub is a game-changer! The fastest way to start a chat, perfect for the youth.”
             </p>
             <div className="mt-4">
               <img
@@ -18,13 +18,13 @@ export default function UserReviews() {
                 alt="User 1"
                 className="w-12 h-12 rounded-full mx-auto"
               />
-              <div className="mt-2 text-gray-800">John Doe, Developer</div>
+              <div className="mt-2 text-gray-800">Shreyansh Srivastava</div>
             </div>
           </div>
           {/* Review 2 */}
           <div className="p-6 text-center bg-white shadow-lg rounded-lg">
             <p className="text-lg text-gray-700">
-              “The encryption is top-notch. I feel secure using ConvoHub.”
+              “I feel secure using ConvoHub.”
             </p>
             <div className="mt-4">
               <img
@@ -32,7 +32,7 @@ export default function UserReviews() {
                 alt="User 2"
                 className="w-12 h-12 rounded-full mx-auto"
               />
-              <div className="mt-2 text-gray-800">Jane Smith, Designer</div>
+              <div className="mt-2 text-gray-800">Arav Negi</div>
             </div>
           </div>
         </div>
