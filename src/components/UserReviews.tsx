@@ -10,7 +10,7 @@ export default function UserReviews() {
           {/* Review 1 */}
           <div className="p-6 text-center bg-white shadow-lg rounded-lg">
             <p className="text-lg text-gray-700">
-              “ConvoHub is a game-changer! The fastest way to start a chat, perfect for the youth.”
+              “ConvoHub is a game-changer!.”
             </p>
             <div className="mt-4">
               <img

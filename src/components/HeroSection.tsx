@@ -18,7 +18,7 @@ export default function HeroSection() {
         Instant Chat & Seamless <span className="text-blue-600">Conversations</span>
       </h1>
       <p className="text-xl text-gray-600 mb-8">
-      ConvoHub makes it effortless to start conversations about trending topicsin seconds.
+      ConvoHub makes it effortless to start conversations about trending topics in seconds.
       </p>
       <button
         onClick={handleStartChatting}
