@@ -25,7 +25,7 @@ A real-time chat application targeted for Gen Z, enabling users to discuss trend
 ## Screenshots
 
 ### Front
-<img width="1440" alt="front" src="https://github.com/user-attachments/assets/24621715-bf06-4e62-a537-5f1b3fe43669" />
+<img width="1440" alt="Screenshot 2025-01-29 at 9 10 18 PM" src="https://github.com/user-attachments/assets/e7f3ba89-8271-40a1-87cf-6fd88b378f9c" />
 
 ### Google Login
 <img width="1440" alt="google_login" src="https://github.com/user-attachments/assets/1a9a3a5b-18ad-4d11-b45b-a5d5df7b0a0c" />
