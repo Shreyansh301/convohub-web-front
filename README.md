@@ -60,12 +60,13 @@ A real-time chat application targeted for Gen Z, enabling users to discuss trend
 - Enable Realtime for the messages table.
 - Add a table named messages with the following schema:
   ```bash
-  CREATE TABLE messages (
-  id SERIAL PRIMARY KEY,
-  name TEXT NOT NULL,
-  message TEXT NOT NULL,
-  created_at TIMESTAMP DEFAULT NOW()
+  create table public.messages (
+    id bigint generated always as identity primary key,
+    name text not null,
+    message text not null,
+    created_at timestamp default now()
   );
+
 4. Create a .env.local file in the root of the project and add the following environment variables:
    ```bash
     NEXTAUTH_SECRET=your-nextauth-secret
